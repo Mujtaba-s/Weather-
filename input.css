@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+body{
+    @apply  min-h-screen  flex items-center justify-center p-4 bg-[url('https://wallpapercave.com/wp/aZSazBV.jpg')] bg-cover bg-center bg-no-repeat transition-opacity duration-300 ease-in-out
+}
+
+#conterner{
+ @apply w-full max-w-md bg-white rounded-xl shadow-lg p-6
+}
+
+.hidden{
+    @apply  mt-6 text-center text-red-600 hidden
+}
